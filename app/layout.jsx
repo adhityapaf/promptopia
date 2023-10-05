@@ -1,4 +1,5 @@
 import "@styles/globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 import Nav from "@components/Nav";
 import Provider from "@components/Provider";
@@ -22,6 +23,7 @@ const RootLayout = ({ children }) => {
           <main className="app">
             <Nav />
             {children}
+            <Analytics />
           </main>
         </Provider>
       </body>
