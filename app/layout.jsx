@@ -7,11 +7,12 @@ import Provider from "@components/Provider";
 export const metadata = {
   title: "Promptopia",
   description: "Discover & Share AI Prompts",
-  metadabase: new URL("https://akd-promptopia.vercel.app"),
+  metadataBase: new URL("https://akd-promptopia.vercel.app"),
   openGraph: {
     title: "Promptopia",
     description: "Discover & Share AI Prompts",
-    images: "/opengraph-image.jpg",
+    images: "/opengraph-image.png",
+    url: new URL("https://akd-promptopia.vercel.app"),
   },
 };
 
