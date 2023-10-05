@@ -11,6 +11,9 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
+      <head>
+        <meta property="og:image" content="/assets/images/thumb.png" />
+      </head>
       <body>
         <Provider>
           <div className="main">
