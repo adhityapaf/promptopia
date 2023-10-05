@@ -13,7 +13,7 @@ const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <head>
-        <meta property="og:image" content="/assets/images/thumb.png" />
+        <meta property="og:image" content="/assets/images/bg_thumb.png" />
       </head>
       <body>
         <Provider>
