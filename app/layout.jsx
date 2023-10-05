@@ -7,13 +7,19 @@ import Provider from "@components/Provider";
 export const metadata = {
   title: "Promptopia",
   description: "Discover & Share AI Prompts",
+  metadabase: new URL("https://akd-promptopia.vercel.app"),
+  openGraph: {
+    title: "Promptopia",
+    description: "Discover & Share AI Prompts",
+    images: "/opengraph-image.jpg",
+  },
 };
 
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <head>
-        <meta property="og:image" content="/assets/images/bg_thumb.png" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body>
         <Provider>
