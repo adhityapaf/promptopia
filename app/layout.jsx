@@ -21,6 +21,10 @@ const RootLayout = ({ children }) => {
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <meta
+          name="google-site-verification"
+          content="8ikYurjblJVcA0XOw8967l1Dv7-7t8Bx5jY5onmVsNM"
+        />
       </head>
       <body>
         <Provider>
